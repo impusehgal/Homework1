@@ -1,7 +1,16 @@
+:root {
+  --color-background: #ffddd2;
+  --color-text: #83c5be;
+  --color-accent: #5C815C;
+  
+}
+
 html {
     font-size: 10px; 
     font-family: "Open Sans", sans-serif; /* need to check and change this */
-    background-color: #f5f5dc;
+    background-color: var(--color-background);
+    max-width: 80ch;
+    margin: 0 auto;
   }
 
   h1 {
@@ -9,7 +18,7 @@ html {
     text-align: center;
     margin: 0;
     padding: 20px;
-    color: #5C815C;
+    color: var(--color-accent);
     text-shadow: 3px 3px 1px black;
       }
  
@@ -25,6 +34,15 @@ li {
   line-height: 2;
   letter-spacing: 1px;
 }
+
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: var(--color-text);
+}
+
+
 
 body {
     width: 1000px;
@@ -56,6 +74,7 @@ body {
   th {
     font-size: 18px;
     font-style: bold;
+    color: var(--color-accent);
   }
 
   footer {
