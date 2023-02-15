@@ -61,3 +61,26 @@ body {
   footer {
     font-size:xx-small;
   }
+
+/* Mobile devices */
+@media (min-width: 320px) {
+    html {
+        font-size: 16px; 
+    }
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+    /* styles for tablets */
+    html {
+        font-size: 18px; 
+    }
+}
+
+/* Laptops and desktops */
+@media (min-width: 1024px) {
+    /* styles for laptops and desktops */
+    html {
+        font-size: 20px; 
+    }
+}
