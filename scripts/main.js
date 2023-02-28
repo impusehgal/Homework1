@@ -4,10 +4,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'history-of-tarot-cards-1.jpg') {
-    myImage.setAttribute ('src','tarot2.jpg');
+  if(mySrc === 'images/tarot1.jpg') {
+    myImage.setAttribute ('src','images/tarot2.jpg');
   } else {
-    myImage.setAttribute ('src','history-of-tarot-cards-1.jpg');
+    myImage.setAttribute ('src','images/tarot1.jpg');
   }
 }
 
