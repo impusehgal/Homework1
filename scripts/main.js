@@ -1,17 +1,16 @@
 
 // image switcher code
-let myImage = document.querySelector("img");
+let myImage = document.querySelector('img');
 
-const myImage = document.querySelector("img");
-
-myImage.onclick = () => {
-  const mySrc = myImage.getAttribute("src");
-  if (mySrc === "history-of-tarot-cards-1.jpg") {
-    myImage.setAttribute("src", "history-of-tarot-cards-1.jpgtarot2.jpg");
+myImage.onclick = function() {
+  let mySrc = myImage.getAttribute('src');
+  if(mySrc === 'history-of-tarot-cards-1.jpg') {
+    myImage.setAttribute ('src','tarot2.jpg');
   } else {
-    myImage.setAttribute("src", "history-of-tarot-cards-1.jpg");
+    myImage.setAttribute ('src','history-of-tarot-cards-1.jpg');
   }
-};
+}
+
 
 
  //personalized welcome message code
